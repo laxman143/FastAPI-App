@@ -10,6 +10,7 @@ models.Base.metadata.create_all(bind=engine)
 
 origins = [
     "http://localhost:5173",  # React app
+    "https://fastapi-app-lep4.onrender.com/"
 ]
 app.add_middleware(
     CORSMiddleware,
